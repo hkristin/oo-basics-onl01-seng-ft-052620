@@ -30,6 +30,14 @@ class Book
   def genre
     @genre
   end
+  
+  def turn_page=(turn_page)
+    @turn_page = turn_page
+  end
+  
+  def turn_page
+    @turn_page
+  end
 end
 
 
